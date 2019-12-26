@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
 		
 			when{
-				changeset pattern: "*/*jenkinsfile", caseSensitive: true 
+				changeset glob: "*jenkinsfile", caseSensitive: true
 			}
 		
             steps {                
