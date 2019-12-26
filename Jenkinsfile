@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
 		
-			when{
+			when {
 				changeset glob: "*jenkinsfile", caseSensitive: true
 			}
 		
