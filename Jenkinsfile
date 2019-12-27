@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
 		
 			when {
-				changeset glob: "*jenkinsfile", caseSensitive: true
+				changeset glob: "*Jenkinsfile", caseSensitive: true
 			}
 		
             steps {                
