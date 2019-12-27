@@ -9,7 +9,7 @@ pipeline {
 			}
 		
             steps {                
-                echo 'Hello World building tag'
+                echo 'Hello change jenkinsfile'
             }
         }
     }
